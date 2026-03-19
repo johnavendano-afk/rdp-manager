@@ -314,7 +314,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 **John Avendaño & Community**
 
 - 🐙 GitHub: [@johnavendano-afk](https://github.com/johnavendano-afk)
-- 💼 LinkedIn: [John Avendaño](https://www.linkedin.com/in/johnavendano)
+- 💼 LinkedIn: [John Avendaño](https://www.linkedin.com/in/john-avendano)
 
 ---
 
