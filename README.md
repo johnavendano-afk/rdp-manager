@@ -13,10 +13,6 @@ Created with passion for the Linux community
 - [About](#about)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
-  - [XfreeRDP Installation](#1-xfreerdp-freerdp-client)
-  - [VPN Requirements](#2-vpn-connection---critical-requirement)
-  - [Optional Tools](#optional-but-recommended-tools)
-- [Quick VPN Test](#quick-vpn-connectivity-test-script)
 - [Installation](#installation)
 - [Quick Start](#quick-start)
 - [Configuration](#configuration)
@@ -57,10 +53,11 @@ Born from frustration with unstable GUI tools like Remmina, this tool leverages 
 
 ## ⚙️ Prerequisites
 
-### 🔧 **Required Software**
+### 🔧 XfreeRDP Installation and 🌐 VPN Requirements
 
-#### **1. XfreeRDP (FreeRDP Client)**
 The core component that handles the RDP protocol:
+
+An active VPN connection must be established beforehand according to your provider's specifications.  The user is responsible for ensuring VPN connectivity before using RDP Manager Pro.
 
 ```bash
 # For Debian/Ubuntu/Zorin OS:
