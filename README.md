@@ -1,73 +1,84 @@
 # 🚀 RDP Manager Pro
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Linux](https://img.shields.io/badge/Platform-Linux-blue)](https://ubuntu.com/)
-[![RDP](https://img.shields.io/badge/Protocol-RDP-green)](https://www.freerdp.com/)
+[![Platform](https://img.shields.io/badge/Platform-Linux-blue)](https://ubuntu.com/)
+[![Protocol](https://img.shields.io/badge/Protocol-RDP-green)](https://www.freerdp.com/)
+[![Shell](https://img.shields.io/badge/Shell-Bash-orange)](https://www.gnu.org/software/bash/)
+[![Maintained](https://img.shields.io/badge/Maintained-Yes-brightgreen)](https://github.com/johnavendano-afk/rdp-manager)
 
-**Professional Remote Desktop Connection Manager for Linux**  
-Created with passion for the Linux community
+> **Professional Remote Desktop Connection Manager for Linux**  
+> Built with passion for the Linux community 🐧
 
 ---
 
 ## 📋 Table of Contents
-- [About](#about)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [How to Run the Shell](#how-to-run-the-shell)
-- [Configuration](#configuration)
-- [Usage Examples](#usage-examples)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
-- [Author](#author)
+
+- [About](#-about)
+- [Features](#-features)
+- [Prerequisites](#-prerequisites)
+- [Installation](#-installation)
+- [Quick Start](#-quick-start)
+- [How to Run](#-how-to-run)
+- [Configuration](#-configuration)
+- [Usage Examples](#-usage-examples)
+- [Troubleshooting](#-troubleshooting)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Author](#-author)
 
 ---
 
-## About
+## 🧠 About
 
-**RDP Manager Pro** is a professional-grade remote desktop connection manager built specifically **for those who are passionate about the Linux world and need to establish stable connections to Windows remote desktops**.
+**RDP Manager Pro** is a professional-grade remote desktop connection manager built specifically **for Linux users who need stable, fast, and reliable connections to Windows remote desktops**.
 
 Born from frustration with unstable GUI tools like Remmina, this tool leverages the power of `xfreerdp` and Bash scripting to deliver:
-- **Zero crashes** (unlike other alternatives)
-- **50% faster connection times**
-- **Full control** over your RDP sessions
-- **Professional features** for daily use
+
+- ✅ **Zero crashes** — unlike other GUI alternatives
+- ⚡ **Faster connection times** — lightweight and direct
+- 🎛️ **Full control** over your RDP sessions
+- 🛠️ **Professional features** for daily production use
 
 ---
 
-## Features
+## ✨ Features
 
 | Feature | Description |
-|---------|-------------|
+|--------|-------------|
 | 🖥️ **Multiple Connections** | Manage all your RDP connections in one place |
-| 🔌 **Desktop Shortcuts** | One-click connections from your desktop |
-| 📝 **Automatic Logging** | Every session is logged for debugging |
-| 💾 **Backup & Restore** | Never lose your configurations |
-| 🎨 **Custom Icons** | Personalize your shortcuts |
-| 🔒 **Secure Authentication** | SSH key integration |
-| 📊 **Connection Testing** | Ping and port verification |
-| 📤 **Export/Import** | Share settings with your team |
+| 🔌 **Desktop Shortcuts** | One-click connections directly from your desktop |
+| 📝 **Automatic Logging** | Every session is logged automatically for debugging |
+| 💾 **Backup & Restore** | Never lose your saved configurations |
+| 🎨 **Custom Icons** | Personalize your desktop shortcuts |
+| 🔒 **Secure Authentication** | TLS and SSH key integration supported |
+| 📊 **Connection Testing** | Built-in ping and port verification |
+| 📤 **Export / Import** | Easily share settings with your team |
 
 ---
 
-## Prerequisites
+## 📦 Prerequisites
 
-### XfreeRDP Installation
+### 1. xfreerdp
 
 The core component that handles the RDP protocol:
 
 ```bash
-# For Debian/Ubuntu/Zorin OS:
+# For Debian / Ubuntu / Zorin OS:
 sudo apt update
 sudo apt install freerdp2-x11 -y
-VPN Requirements
-An active VPN connection must be established beforehand according to your provider's specifications. The user is responsible for ensuring VPN connectivity before using RDP Manager Pro.
+```
 
-Installation
-Method 1: Quick Install (Recommended)
-bash
+### 2. VPN Connection
+
+> ⚠️ **Important:** An active VPN connection must be established **before** using RDP Manager Pro, according to your provider's specifications. The user is responsible for ensuring VPN connectivity.
+
+---
+
+## 🔧 Installation
+
+### Method 1: Quick Install (Recommended)
+
+```bash
 # Clone the repository
 git clone https://github.com/johnavendano-afk/rdp-manager.git
 cd rdp-manager
@@ -77,80 +88,104 @@ chmod +x rdp-manager-pro.sh
 
 # Run the manager
 ./rdp-manager-pro.sh
-Method 2: Global Installation
-bash
+```
+
+### Method 2: Global Installation
+
+```bash
 # Install system-wide
 sudo cp rdp-manager-pro.sh /usr/local/bin/rdp-manager
 sudo chmod +x /usr/local/bin/rdp-manager
 
-# Run from anywhere
+# Now you can run from anywhere
 rdp-manager
-Quick Start
-Launch RDP Manager Pro:
+```
 
-bash
+---
+
+## 🚀 Quick Start
+
+**1. Launch RDP Manager Pro:**
+
+```bash
 ./rdp-manager-pro.sh
-Create your first connection:
+```
 
-Select option 1 (Create New Connection)
+**2. Create your first connection:**
 
-Enter server details (IP/hostname)
+- Select option `1` → **Create New Connection**
+- Enter the server IP or hostname
+- Enter your username (e.g., `user@domain.com` or `DOMAIN\user`)
+- Configure resolution and optional features
 
-Enter username (e.g., user@domain.com or DOMAIN\user)
+**3. Connect:**
 
-Configure resolution and features
+- Select option `3` → **Connect to Remote Desktop**
+- Choose your saved connection from the list
+- Enter your password when prompted
 
-Connect:
+---
 
-Select option 3 (Connect to Remote Desktop)
+## 🖥️ How to Run
 
-Choose your connection from the list
+### From the terminal
 
-Enter password when prompted
-
-How to Run the Shell
-From the terminal:
-bash
+```bash
 # Navigate to the project folder
-cd /home/johnavendano/RDP_Conn_Manager
+cd ~/RDP_Conn_Manager
 
-# Make sure it has execution permissions
+# Ensure execution permissions
 chmod +x rdp-manager-pro.sh
 
-# Run the shell script
+# Run the script
 ./rdp-manager-pro.sh
-Create a desktop shortcut:
-bash
-# Create a .desktop file
-nano ~/Escritorio/rdp-manager.desktop
-Add this content:
+```
 
-ini
+### Create a Desktop Shortcut
+
+```bash
+# Create the .desktop launcher file
+nano ~/Desktop/rdp-manager.desktop
+```
+
+Paste the following content:
+
+```ini
 [Desktop Entry]
 Version=1.0
 Name=RDP Manager Pro
 Comment=Remote Desktop Connection Manager
-Exec=/home/johnavendano/RDP_Conn_Manager/rdp-manager-pro.sh
+Exec=/home/YOUR_USER/RDP_Conn_Manager/rdp-manager-pro.sh
 Icon=terminal
 Terminal=true
 Type=Application
 Categories=Network;
-bash
-# Make it executable
-chmod +x ~/Escritorio/rdp-manager.desktop
-Run directly with parameters:
-bash
-# If you installed globally
-rdp-manager
+```
 
-# Or directly with bash
+> 💡 Replace `YOUR_USER` with your actual Linux username.
+
+```bash
+# Make the shortcut executable
+chmod +x ~/Desktop/rdp-manager.desktop
+```
+
+### Run with Bash directly
+
+```bash
 bash rdp-manager-pro.sh
-Configuration
-Connection Profile Example
-Create or edit connection files in ~/.config/rdp-manager/:
+```
 
-bash
+---
+
+## ⚙️ Configuration
+
+### Connection Profile Example
+
+Connection files are stored in `~/.config/rdp-manager/`:
+
+```bash
 # Example: ~/.config/rdp-manager/Work.conf
+
 SERVER="192.168.1.100"
 USERNAME="john@company.com"
 DOMAIN="COMPANY"
@@ -159,83 +194,116 @@ FULLSCREEN="true"
 ENABLE_CLIPBOARD="true"
 ENABLE_DRIVES="true"
 ENABLE_AUDIO="true"
-Desktop Shortcuts with Custom Icons
-Place your icons in: ~/.local/share/icons/rdp-manager/
+```
 
-Edit the .desktop file in your Desktop folder
+### Custom Icons for Desktop Shortcuts
 
-Change the Icon= line to point to your icon
+1. Place your icon files in: `~/.local/share/icons/rdp-manager/`
+2. Edit the `.desktop` file on your Desktop
+3. Update the `Icon=` line to point to your custom icon path
 
-Usage Examples
-Basic Connection
-bash
-# Connect to a server (if installed globally)
-rdp-connect "Work"
-Direct xfreerdp Command
-bash
-xfreerdp /v:192.168.1.100 /u:'user@domain.com' /sec:tls /cert-ignore /f
-Run the manager menu
-bash
-# Show the main menu
+---
+
+## 💡 Usage Examples
+
+### Launch the main menu
+
+```bash
 ./rdp-manager-pro.sh
-Command line options
-bash
-# If you add command line support to your script
+```
+
+### Direct xfreerdp connection
+
+```bash
+xfreerdp /v:192.168.1.100 /u:'user@domain.com' /sec:tls /cert-ignore /f
+```
+
+### Command line options (if configured)
+
+```bash
 ./rdp-manager-pro.sh --help
 ./rdp-manager-pro.sh --connect "Work"
-Troubleshooting
-Common Issues and Solutions
-Issue	Solution
-"Permission denied"	Run chmod +x rdp-manager-pro.sh
-"Command not found"	Use ./rdp-manager-pro.sh instead of just the name
-"Connection refused"	Check if VPN is active and server is reachable
-Authentication failed	Verify username format (DOMAIN\user or user@domain.com)
-Connection drops immediately	Try with /sec:tls instead of auto-negotiation
-Slow performance	Add /network:auto and /gfx parameters
-Cannot copy/paste	Enable clipboard with +clipboard flag
-Debug Mode
-bash
-# Run with debug output
+```
+
+---
+
+## 🛠️ Troubleshooting
+
+### Common Issues and Solutions
+
+| Issue | Solution |
+|-------|----------|
+| `Permission denied` | Run `chmod +x rdp-manager-pro.sh` |
+| `Command not found` | Use `./rdp-manager-pro.sh` instead of just the name |
+| `Connection refused` | Verify VPN is active and the server is reachable |
+| `Authentication failed` | Check username format: `DOMAIN\user` or `user@domain.com` |
+| Connection drops immediately | Try using `/sec:tls` instead of auto-negotiation |
+| Slow performance | Add `/network:auto` and `/gfx` flags |
+| Cannot copy/paste | Enable clipboard with `+clipboard` flag |
+
+### Debug Mode
+
+```bash
+# Run with full debug output and save to log
 xfreerdp /v:SERVER /u:USER /p:PASS +log-level:DEBUG 2>&1 | tee debug.log
-Logs Location
+```
+
+### Logs Location
+
 All connection logs are stored in:
 
-text
+```
 ~/.local/share/rdp-manager/logs/
-Contributing
-Contributions are welcome! Here's how you can help:
+```
 
-Fork the repository
+---
 
-Create a feature branch:
+## 🤝 Contributing
 
-bash
-git checkout -b feature/AmazingFeature
-Commit your changes:
+Contributions are welcome and appreciated! Here's how to get involved:
 
-bash
-git commit -m 'Add some AmazingFeature'
-Push to the branch:
+1. **Fork** the repository
+2. **Create** your feature branch:
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. **Commit** your changes:
+   ```bash
+   git commit -m 'Add AmazingFeature'
+   ```
+4. **Push** to the branch:
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+5. **Open** a Pull Request 🎉
 
-bash
-git push origin feature/AmazingFeature
-Open a Pull Request
+---
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 📄 License
 
-Author
-John Avendaño
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
-GitHub: @johnavendano-afk
+---
 
-LinkedIn: John Avendaño
+## 👤 Author
 
-Support
+**John Avendaño**
+
+- 🐙 GitHub: [@johnavendano-afk](https://github.com/johnavendano-afk)
+- 💼 LinkedIn: [John Avendaño](https://www.linkedin.com/in/johnavendano)
+
+---
+
+## ⭐ Support
+
 If you find this project useful, please consider:
 
-Giving it a star on GitHub ⭐
+- Giving it a **star on GitHub** ⭐
+- **Sharing it** with the Linux community
+- **Contributing** with code, bug reports, or documentation
 
-Sharing it with your network
+---
 
-Contributing with code or documentation
+<p align="center">
+  Made with ❤️ for the Linux community
+</p>
