@@ -105,7 +105,7 @@ EOF
 create_connection() {
     clear
     echo -e "${CYAN}╔════════════════════════════════════════╗${NC}"
-    echo -e "${CYAN}║     CREATE NEW RDP CONNECTION         ║${NC}"
+    echo -e "${CYAN}║     CREATE NEW RDP CONNECTION          ║${NC}"
     echo -e "${CYAN}╚════════════════════════════════════════╝${NC}"
     echo ""
     
@@ -363,7 +363,7 @@ main_menu() {
     clear
     echo -e "${CYAN}╔════════════════════════════════════════╗${NC}"
     echo -e "${CYAN}║     RDP MANAGER PRO v2.0               ║${NC}"
-    echo -e "${CYAN}║     Professional RDP Connection Manager ║${NC}"
+    echo -e "${CYAN}║     Professional RDP Connection Mgr    ║${NC}"
     echo -e "${CYAN}╚════════════════════════════════════════╝${NC}"
     echo -e "${WHITE}     Created by John Avendaño & Community${NC}"
     echo -e "${YELLOW}     https://github.com/johnavendano-afk/rdp-manager${NC}"
@@ -385,7 +385,7 @@ main_menu() {
 view_logs() {
     clear
     echo -e "${CYAN}╔════════════════════════════════════════╗${NC}"
-    echo -e "${CYAN}║        CONNECTION LOGS                  ║${NC}"
+    echo -e "${CYAN}║        CONNECTION LOGS                 ║${NC}"
     echo -e "${CYAN}╚════════════════════════════════════════╝${NC}"
     echo ""
     
