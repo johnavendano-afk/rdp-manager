@@ -11,7 +11,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [About](#about)
 - [Features](#features)
@@ -28,7 +28,7 @@
 
 ---
 
-## 🧠 About
+## About
 
 **RDP Manager Pro** is a professional-grade remote desktop connection manager built specifically **for Linux users who need stable, fast, and reliable connections to Windows remote desktops**.
 
@@ -43,7 +43,7 @@ Compatible with: **Zorin OS, Ubuntu, Linux Mint, Debian**
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |--------|-------------|
@@ -59,7 +59,7 @@ Compatible with: **Zorin OS, Ubuntu, Linux Mint, Debian**
 
 ---
 
-## 📦 Prerequisites
+## Prerequisites
 
 ### 1. xfreerdp
 
@@ -79,7 +79,7 @@ sudo apt install freerdp2-x11 -y
 
 ---
 
-## 🔧 Installation
+## Installation
 
 ### Method 1: Quick Install (Recommended)
 
@@ -108,7 +108,7 @@ rdp-manager
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 **1. Launch RDP Manager Pro:**
 
@@ -134,16 +134,16 @@ On **first run**, the setup wizard will automatically install all dependencies a
 
 ---
 
-## 🖥 Main Menu
+## Main Menu
 
 When you run the script, you will see the following interactive menu:
 
 ```
 ╔════════════════════════════════════════╗
 ║     RDP MANAGER PRO v2.0               ║
-║     Professional RDP Connection Manager║
+║     Professional RDP Connection Mgr    ║
 ╚════════════════════════════════════════╝
-     Created by John Avendaño & Community
+     Created by John Avendano & Community
      https://github.com/johnavendano-afk/rdp-manager
 
 1)  Create New Connection
@@ -160,7 +160,7 @@ When you run the script, you will see the following interactive menu:
 
 ---
 
-## ⚙ Configuration
+## Configuration
 
 ### Connection Profiles
 
@@ -210,7 +210,7 @@ ENABLE_AUDIO="true"
 
 ---
 
-## 💡 Usage Examples
+## Usage Examples
 
 ### Launch the main menu
 
@@ -248,7 +248,7 @@ Categories=Network;
 
 ---
 
-## 🛠 Troubleshooting
+## Troubleshooting
 
 ### Common Issues and Solutions
 
@@ -282,7 +282,7 @@ Each log file is named by timestamp and connection name, e.g.: `20240315_143022_
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome and appreciated! Here's how to get involved:
 
@@ -303,28 +303,28 @@ Contributions are welcome and appreciated! Here's how to get involved:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for full details.
 
 ```
-MIT License — Copyright (c) 2026 John Avendaño & Community
+MIT License — Copyright (c) 2026 John Avendano & Community
 ```
 
 Free to use, modify, and distribute with attribution.
 
 ---
 
-## 👤 Author
+## Author
 
-**John Avendaño & Community**
+**John Avendano & Community**
 
 - 🐙 GitHub: [@johnavendano-afk](https://github.com/johnavendano-afk)
-- 💼 LinkedIn: [John Avendaño](https://www.linkedin.com/in/johnavendano)
+- 💼 LinkedIn: [John Avendano](https://www.linkedin.com/in/johnavendano)
 
 ---
 
-## ⭐ Support
+## Support
 
 If you find this project useful, please consider:
 
@@ -334,6 +334,4 @@ If you find this project useful, please consider:
 
 ---
 
-<p align="center">
-  Made with ❤️ for the Linux community
-</p>
+<p align="center">Made with ❤️ for the Linux community</p>
