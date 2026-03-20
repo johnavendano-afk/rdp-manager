@@ -13,18 +13,18 @@
 
 ## 📋 Table of Contents
 
-- [About](#-about)
-- [Features](#-features)
-- [Prerequisites](#-prerequisites)
-- [Installation](#-installation)
-- [Quick Start](#-quick-start)
-- [Main Menu](#-main-menu)
-- [Configuration](#-configuration)
-- [Usage Examples](#-usage-examples)
-- [Troubleshooting](#-troubleshooting)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Author](#-author)
+- [About](#about)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Quick Start](#quick-start)
+- [Main Menu](#main-menu)
+- [Configuration](#configuration)
+- [Usage Examples](#usage-examples)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
+- [Author](#author)
 
 ---
 
