@@ -305,7 +305,13 @@ Contributions are welcome and appreciated! Here's how to get involved:
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for full details.
+
+```
+MIT License — Copyright (c) 2026 John Avendaño & Community
+```
+
+Free to use, modify, and distribute with attribution.
 
 ---
 
@@ -314,7 +320,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 **John Avendaño & Community**
 
 - 🐙 GitHub: [@johnavendano-afk](https://github.com/johnavendano-afk)
-- 💼 LinkedIn: [John Avendaño](https://www.linkedin.com/in/john-avendano)
+- 💼 LinkedIn: [John Avendaño](https://www.linkedin.com/in/johnavendano)
 
 ---
 
