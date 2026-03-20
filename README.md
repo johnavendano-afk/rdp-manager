@@ -320,7 +320,7 @@ Free to use, modify, and distribute with attribution.
 **John Avendano & Community**
 
 - 🐙 GitHub: [@johnavendano-afk](https://github.com/johnavendano-afk)
-- 💼 LinkedIn: [John Avendano](https://www.linkedin.com/in/johnavendano)
+- 💼 LinkedIn: [John Avendano](https://www.linkedin.com/in/john-avendano)
 
 ---
 
