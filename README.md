@@ -134,7 +134,7 @@ On **first run**, the setup wizard will automatically install all dependencies a
 
 ---
 
-## 🖥️ Main Menu
+## 🖥 Main Menu
 
 When you run the script, you will see the following interactive menu:
 
@@ -160,7 +160,7 @@ When you run the script, you will see the following interactive menu:
 
 ---
 
-## ⚙️ Configuration
+## ⚙ Configuration
 
 ### Connection Profiles
 
@@ -248,7 +248,7 @@ Categories=Network;
 
 ---
 
-## 🛠️ Troubleshooting
+## 🛠 Troubleshooting
 
 ### Common Issues and Solutions
 
